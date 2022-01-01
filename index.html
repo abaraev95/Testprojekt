@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="generatePostContainer()">
+    
+    <div class="header space-between padding">
+        <img class="logo-size" src="img/instagram.png">
+        <div>
+            <input id="searchInput" class="search-input" type="text" placeholder="Suchen" onkeyup="filterPosts()">
+        </div>
+        <div class="nav-icons space-between">
+            <img class="icons-size pointer" src="img/icons/homepage.svg">
+            <img class="icons-size pointer" src="img/icons/sent.svg">
+            <img class="icons-size pointer" src="img/icons/explore_black_24dp.svg">
+            <img class="icons-size pointer" src="img/icons/heart-thin.svg">
+        </div>
+    </div>
+
+    <div class="row padding">
+        <div class="container-size">
+            <div class="story-container">
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+                <div class="column margin">
+                    <div class="story-border pointer">
+                        <img src="img/stories/merc.jpg">
+                    </div>
+                    <span>mb_fanpage</span>
+                </div>
+
+            </div>
+            <div id="post-container">
+
+            </div>
+        </div>
+    
+        <div class="sidebar-size">
+            <div class="profile">
+                <div class="profile">
+                    <img class="profile-img" src="img/stories/merc.jpg">
+                    <div class="profile-description pointer">
+                        <span class="profile-desc1">mb_fanclub</span>
+                        <span class="profile-desc2">Mercedes-Benz Fanclub</span>
+                    </div>
+                </div>
+                <button class="change-profile pointer">Wechseln</button>
+            </div>
+            <div class="suggestions-margin">
+                Vorschläge für dich
+            </div>
+            <div class="suggestions">
+                <div class="profile profile-margin">
+                    <div class="profile">
+                        <img class="sug-img" src="img/stories/merc.jpg">
+                        <div class="profile-description pointer">
+                            <span class="profile-desc1">mb_fanclub</span>
+                            <span class="profile-desc2">Mercedes-Benz Fanclub</span>
+                        </div>
+                    </div>
+                    <button class="follow-profile pointer">Folgen</button>
+                </div>
+                <div class="profile profile-margin">
+                    <div class="profile">
+                        <img class="sug-img" src="img/stories/merc.jpg">
+                        <div class="profile-description pointer">
+                            <span class="profile-desc1">mb_fanclub</span>
+                            <span class="profile-desc2">Mercedes-Benz Fanclub</span>
+                        </div>
+                    </div>
+                    <button class="follow-profile pointer">Folgen</button>
+                </div>
+                <div class="profile profile-margin">
+                    <div class="profile">
+                        <img class="sug-img" src="img/stories/merc.jpg">
+                        <div class="profile-description pointer">
+                            <span class="profile-desc1">mb_fanclub</span>
+                            <span class="profile-desc2">Mercedes-Benz Fanclub</span>
+                        </div>
+                    </div>
+                    <button class="follow-profile pointer">Folgen</button>
+                </div>
+                <div class="profile">
+                    <div class="profile">
+                        <img class="sug-img" src="img/stories/merc.jpg">
+                        <div class="profile-description pointer">
+                            <span class="profile-desc1">mb_fanclub</span>
+                            <span class="profile-desc2">Mercedes-Benz Fanclub</span>
+                        </div>
+                    </div>
+                    <button class="follow-profile pointer">Folgen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
